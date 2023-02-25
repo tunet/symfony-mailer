@@ -16,3 +16,5 @@ framework:
 
         # Namespaced pools use the above "app" backend by default
         pools:
+            cache.flysystem.psr6:
+                adapter: cache.app
